@@ -9,5 +9,10 @@
   "examplemod.configuration.items": "Item List",
   "examplemod.configuration.logDirtBlock": "Log Dirt Block",
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "examplemod.configuration.magicNumber": "Magic Number",
+
+  "item.modestmagicindividualized.testing_tablet": "Testing Tablet",
+  "item.modestmagicindividualized.testing_slate": "Testing Slate",
+
+  "creativetab.modestmagicindividualized.modest_magic_individualized": "Modest Magic Individualized"
 }
