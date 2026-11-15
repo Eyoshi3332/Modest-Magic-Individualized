@@ -1,25 +1,16 @@
+No AI was used or is planned to be used in the making of this mod.
+Please do not make forks of this mod that use AI in *ANY* capacity.
 
-Installation information
+Modest Magic Individualized
 =======
+A mod made by Eyoshi and Cas!
+Eyoshi: Director, Programmer, Artist
+Cas: Main Artist
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Modest Magic Individualized is a (work in progress) mod add-on to Modest Magic, with the goal of individualizing all of Minecraft's (and other mod's) unique enchantments, and grouping those that are extremely similar!
+It also adds compatibility between some mods, including:
+- Dungeons and Taverns
+- Spartan Weaponry
+- reminder to self to actually like. write the rest of this lol
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+This mod is originally made for a modpack for friends, but feel free to use it in your modpack if you want!
