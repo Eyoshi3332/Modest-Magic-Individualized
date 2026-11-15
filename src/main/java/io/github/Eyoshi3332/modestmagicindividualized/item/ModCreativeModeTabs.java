@@ -25,6 +25,9 @@ public class ModCreativeModeTabs {
                         // Items displayed in the "Modest Magic Individualized" Creative Mode Tab
                         output.accept(ModItems.TESTING_TABLET);
                         output.accept(ModItems.TESTING_SLATE);
+
+                        output.accept(ModItems.BLESSED_ENCHANTING_TABLET);
+                        output.accept(ModItems.CURSED_ENCHANTING_TABLET);
                     })
 
                     .build());
