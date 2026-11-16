@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "ala",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "amethyst_shard"
+    },
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "id": "modestmagic:enchantment_tablet",
+    "count": 1
+  }
+}

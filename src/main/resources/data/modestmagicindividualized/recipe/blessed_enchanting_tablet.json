@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "gag",
+    "ala",
+    "gag"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "id": "modestmagicindividualized:blessed_enchanting_tablet",
+    "count": 1
+  }
+}

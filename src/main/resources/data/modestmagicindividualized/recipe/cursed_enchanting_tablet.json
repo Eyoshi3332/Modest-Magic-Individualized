@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sas",
+    "ala",
+    "sas"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "s": [
+      {
+        "item": "minecraft:sculk"
+      },
+      {
+        "item": "minecraft:soul_soil"
+      },
+      {
+        "item": "minecraft:soul_sand"
+      }
+    ]
+  },
+  "result": {
+    "id": "modestmagicindividualized:cursed_enchanting_tablet",
+    "count": 1
+  }
+}
