@@ -13,11 +13,6 @@ public class ModItems {
     // "TESTING_TABLET" (all caps) is used in coding for stuffs!
     // "testing_tablet" (all lowercase) is the in-game name used in "/give", advanced tooltips, etc.!
     // Adding an Item Property goes "Item.Properties().[thing you want to add]".
-    public static final DeferredItem<Item> TESTING_TABLET = ITEMS.register("testing_tablet",
-            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final DeferredItem<Item> TESTING_SLATE = ITEMS.register("testing_slate",
-            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
-
     public static final DeferredItem<Item> BLESSED_ENCHANTING_TABLET = ITEMS.register("blessed_enchanting_tablet",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final DeferredItem<Item> CURSED_ENCHANTING_TABLET = ITEMS.register("cursed_enchanting_tablet",

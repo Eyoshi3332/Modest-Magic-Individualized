@@ -16,16 +16,13 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ModestMagicIndividualized.MODID);
 
     public static final Supplier<CreativeModeTab> MODEST_MAGIC_INDIVIDUALIZED_TAB = CREATIVE_MODE_TAB.register("modest_magic_individualized_tab",
-            // Icon for the Creative Mode Tab. "TESTING_TABLET" is the icon.
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TESTING_TABLET.get()))
+            // Icon for the Creative Mode Tab. "BLESSED_ENCHANTING_TABLET" is the icon.
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLESSED_ENCHANTING_TABLET.get()))
                     // Translation Key for en_us.json
                     .title(Component.translatable("creativetab.modestmagicindividualized.modest_magic_individualized"))
                     .displayItems((itemDisplayParameters, output) -> {
 
                         // Items displayed in the "Modest Magic Individualized" Creative Mode Tab
-                        output.accept(ModItems.TESTING_TABLET);
-                        output.accept(ModItems.TESTING_SLATE);
-
                         output.accept(ModItems.BLESSED_ENCHANTING_TABLET);
                         output.accept(ModItems.CURSED_ENCHANTING_TABLET);
                     })

@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "description": "A mod that reworks Modest Magic, with the goal of individualizing every unique enchantment (hence the name)!",
+    "pack_format": 48
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "modestmagic",
+        "path": "recipe/enchantment_tablet.json"
+      },
+      {
+        "namespace": "modestmagic",
+        "path": "recipe/enchanting/curse_of_binding.json"
+      },
+      {
+        "namespace": "modestmagic",
+        "path": "recipe/enchanting/curse_of_vanishing.json"
+      }
+    ]
+  },
+  "language": {}
+}

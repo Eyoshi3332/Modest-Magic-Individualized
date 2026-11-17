@@ -48,12 +48,10 @@ public class ModestMagicIndividualized {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Creative Mode Tabs
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        // Ingredients Tab
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.TESTING_TABLET);
-            event.accept(ModItems.TESTING_SLATE);
-
             event.accept(ModItems.BLESSED_ENCHANTING_TABLET);
             event.accept(ModItems.CURSED_ENCHANTING_TABLET);
         }
