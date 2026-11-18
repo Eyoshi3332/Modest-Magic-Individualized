@@ -2,6 +2,16 @@ package io.github.Eyoshi3332.modestmagicindividualized;
 
 import io.github.Eyoshi3332.modestmagicindividualized.item.ModCreativeModeTabs;
 import io.github.Eyoshi3332.modestmagicindividualized.item.ModItems;
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.server.packs.repository.Pack;
+import net.minecraft.server.packs.repository.PackRepository;
+import net.minecraft.server.packs.repository.PackSource;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.event.AddPackFindersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -16,6 +26,11 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
+import java.util.ArrayList;
+import java.util.List;
+
+// REMINDER TO SELF: IF THE "IMPORT" STUFF IS GRAYED OUT, THAT DOESN'T MEAN IT'S NOT WORKING!!! IT JUST MEANS THAT IT'S UNUSED IN THE CODE!!! USE IT SOMEWHERE TO UNGRAY IT OUT AND GIVE IT COLOR (paper mario: color splash reference)!!!
+
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(ModestMagicIndividualized.MODID)
 public class ModestMagicIndividualized {
@@ -23,9 +38,11 @@ public class ModestMagicIndividualized {
     public static final String MODID = "modestmagicindividualized";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
+
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public ModestMagicIndividualized(IEventBus modEventBus, ModContainer modContainer) {
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -40,6 +57,9 @@ public class ModestMagicIndividualized {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        // Resource Pack stuff
+        modEventBus.addListener(this::addPackFinders);
+
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -51,7 +71,7 @@ public class ModestMagicIndividualized {
     // Creative Mode Tabs
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // Ingredients Tab
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BLESSED_ENCHANTING_TABLET);
             event.accept(ModItems.CURSED_ENCHANTING_TABLET);
         }
@@ -60,5 +80,14 @@ public class ModestMagicIndividualized {
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
+    }
+
+    public void addPackFinders(AddPackFindersEvent event) {
+        if (event.getPackType() == PackType.CLIENT_RESOURCES) {
+            // File path
+            event.addPackFinders(ResourceLocation.fromNamespaceAndPath(MODID, "resourcepacks/rebranded_tablets"),
+                    // Actual name of the Resource Pack
+                    PackType.CLIENT_RESOURCES, Component.literal("Rebranded Tablets"), PackSource.BUILT_IN, false, Pack.Position.TOP);
+        }
     }
 }
