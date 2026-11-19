@@ -1,0 +1,12 @@
+{
+  "type": "modestmagic:tablet_smithing",
+  "template": {
+    "item": "modestmagicindividualized:spraying_slate"
+  },
+  "base": {
+    "tag": "modestmagic:enchantable/tablets"
+  },
+  "enchantments": [
+    "minecraft:multishot"
+  ]
+}

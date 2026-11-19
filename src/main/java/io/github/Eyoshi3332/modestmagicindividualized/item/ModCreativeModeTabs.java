@@ -23,8 +23,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         // Items displayed in the "Modest Magic Individualized" Creative Mode Tab
+                        // Base Tablets
                         output.accept(ModItems.BLESSED_ENCHANTING_TABLET);
                         output.accept(ModItems.CURSED_ENCHANTING_TABLET);
+                        // Slates
+                        output.accept(ModItems.SPRAYING_SLATE);
                     })
 
                     .build());

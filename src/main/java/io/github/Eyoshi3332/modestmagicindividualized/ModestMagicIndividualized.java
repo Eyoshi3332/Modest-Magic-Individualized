@@ -72,8 +72,11 @@ public class ModestMagicIndividualized {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         // Ingredients Tab
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            // Base Tablets
             event.accept(ModItems.BLESSED_ENCHANTING_TABLET);
             event.accept(ModItems.CURSED_ENCHANTING_TABLET);
+            // Slates
+            event.accept(ModItems.SPRAYING_SLATE);
         }
     }
 
