@@ -21,7 +21,7 @@ It also adds compatibility between some mods, including:
 - Dungeons & Taverns
 - Ars Nouveau
 - Spartan Weaponry Unofficial
-- Spartan Shields Unofficial3
+- Spartan Shields Unofficial
 - Dimensional Doors
 - Create: Rail Grinding
 - The Bygone
