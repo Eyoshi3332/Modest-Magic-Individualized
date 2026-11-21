@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "modestmagicindividualized:item/cursed_enchanting_tablet"
+    "layer0": "modestmagicindividualized:item/base/cursed_enchanting_tablet"
   }
 }

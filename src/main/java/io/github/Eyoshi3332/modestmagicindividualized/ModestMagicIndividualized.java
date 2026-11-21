@@ -83,6 +83,13 @@ public class ModestMagicIndividualized {
             // Blessed Tablets
             event.accept(ModItems.LIMITLESS_TABLET);
             event.accept(ModItems.SOLARIZING_TABLET);
+            event.accept(ModItems.EVERLASTING_TABLET);
+            event.accept(ModItems.ENDURING_TABLET);
+            event.accept(ModItems.PRESERVATION_TABLET);
+            event.accept(ModItems.INNER_EYE_TABLET);
+            event.accept(ModItems.TOLERANCE_TABLET);
+            event.accept(ModItems.REST_WINGS_TABLET);
+            event.accept(ModItems.IMPERVIOUS_TABLET);
 
             // Cursed Tablets
         }

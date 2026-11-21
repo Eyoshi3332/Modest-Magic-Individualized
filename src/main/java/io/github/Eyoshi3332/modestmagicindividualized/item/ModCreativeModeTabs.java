@@ -34,6 +34,13 @@ public class ModCreativeModeTabs {
                         // Blessed Tablets
                         output.accept(ModItems.LIMITLESS_TABLET);
                         output.accept(ModItems.SOLARIZING_TABLET);
+                        output.accept(ModItems.EVERLASTING_TABLET);
+                        output.accept(ModItems.ENDURING_TABLET);
+                        output.accept(ModItems.PRESERVATION_TABLET);
+                        output.accept(ModItems.INNER_EYE_TABLET);
+                        output.accept(ModItems.TOLERANCE_TABLET);
+                        output.accept(ModItems.REST_WINGS_TABLET);
+                        output.accept(ModItems.IMPERVIOUS_TABLET);
 
                         // Cursed Tablets
 

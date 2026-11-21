@@ -33,6 +33,21 @@ public class ModItems {
             () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
     public static final DeferredItem<Item> SOLARIZING_TABLET = ITEMS.register("solarizing_tablet",
             () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> EVERLASTING_TABLET = ITEMS.register("everlasting_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> ENDURING_TABLET = ITEMS.register("enduring_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> PRESERVATION_TABLET = ITEMS.register("preservation_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> INNER_EYE_TABLET = ITEMS.register("inner_eye_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> TOLERANCE_TABLET = ITEMS.register("tolerance_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> REST_WINGS_TABLET = ITEMS.register("rest_wings_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> IMPERVIOUS_TABLET = ITEMS.register("impervious_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+
 
     // Cursed Tablets
 

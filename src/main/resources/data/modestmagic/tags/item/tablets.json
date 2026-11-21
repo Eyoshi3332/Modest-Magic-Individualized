@@ -1,11 +1,15 @@
 {
   "replace": false,
   "values": [
-    "modestmagicindividualized:limiting_slate",
-    "modestmagicindividualized:solarizing_slate",
-
-
-
-    "modestmagicindividualized:spraying_slate"
+    "modestmagicindividualized:spraying_slate",
+    "modestmagicindividualized:limiting_tablet",
+    "modestmagicindividualized:solarizing_tablet",
+    "modestmagicindividualized:everlasting_tablet",
+    "modestmagicindividualized:enduring_tablet",
+    "modestmagicindividualized:preservation_tablet",
+    "modestmagicindividualized:inner_eye_tablet",
+    "modestmagicindividualized:tolerance_tablet",
+    "modestmagicindividualized:rest_wings_tablet",
+    "modestmagicindividualized:impervious_tablet"
   ]
 }

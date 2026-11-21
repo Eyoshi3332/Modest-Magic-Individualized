@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "modestmagicindividualized:item/spraying_slate"
+    "layer0": "modestmagicindividualized:item/slates/spraying_slate"
   }
 }
