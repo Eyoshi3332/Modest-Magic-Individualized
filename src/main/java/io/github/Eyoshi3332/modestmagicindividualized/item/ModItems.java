@@ -20,15 +20,22 @@ public class ModItems {
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final DeferredItem<Item> CURSED_ENCHANTING_TABLET = ITEMS.register("cursed_enchanting_tablet",
             () -> new Item(new Item.Properties()));
+
     // Regular Tablets
 
-    // Blessed Tablets
-
-    // Cursed Tablets
 
     // Slates
     public static final DeferredItem<Item> SPRAYING_SLATE = ITEMS.register("spraying_slate",
             () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.UNCOMMON)));
+
+    // Blessed Tablets
+    public static final DeferredItem<Item> LIMITLESS_TABLET = ITEMS.register("limitless_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> SOLARIZING_TABLET = ITEMS.register("solarizing_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+
+    // Cursed Tablets
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

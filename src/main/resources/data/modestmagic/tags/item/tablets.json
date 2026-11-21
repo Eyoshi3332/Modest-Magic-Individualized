@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "modestmagicindividualized:limiting_slate",
+    "modestmagicindividualized:solarizing_slate",
+
+
+
     "modestmagicindividualized:spraying_slate"
   ]
 }
