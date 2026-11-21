@@ -32,7 +32,9 @@ This mod is originally made for a modpack for friends, but feel free to use it i
 
 Special Credits:
 
+Bailysia for the original mod, Modest Magic!
+
 Cassian and Bailysia from the Raspberry Flavoured Discord server for helping me with some code stuffs!
 
-branjoman from the Raspberry Flavoured Discord server for also helping me with the code by pointing out a singular thing (which was kind of funny in retrospect lol)!
+branjoman from the Raspberry Flavoured Discord server for also helping me with the code by pointing out a singular thing (i thought they were just trying to ask a question and not point something out lol)!
 
