@@ -2,15 +2,11 @@ package io.github.Eyoshi3332.modestmagicindividualized;
 
 import io.github.Eyoshi3332.modestmagicindividualized.item.ModCreativeModeTabs;
 import io.github.Eyoshi3332.modestmagicindividualized.item.ModItems;
-import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.repository.Pack;
-import net.minecraft.server.packs.repository.PackRepository;
 import net.minecraft.server.packs.repository.PackSource;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.event.AddPackFindersEvent;
 import org.slf4j.Logger;
 
@@ -25,9 +21,6 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-
-import java.util.ArrayList;
-import java.util.List;
 
 // REMINDER TO SELF: IF THE "IMPORT" STUFF IS GRAYED OUT, THAT DOESN'T MEAN IT'S NOT WORKING!!! IT JUST MEANS THAT IT'S UNUSED IN THE CODE!!! USE IT SOMEWHERE TO UNGRAY IT OUT AND GIVE IT COLOR (paper mario: color splash reference)!!!
 

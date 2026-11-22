@@ -1,0 +1,12 @@
+{
+  "type": "modestmagic:tablet_smithing",
+  "template": {
+    "item": "modestmagicindividualized:everlasting_tablet"
+  },
+  "base": {
+    "tag": "modestmagic:enchantable/tablets"
+  },
+  "enchantments": [
+    "minecraft:mending"
+  ]
+}
