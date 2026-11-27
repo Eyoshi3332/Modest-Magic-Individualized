@@ -1,0 +1,12 @@
+{
+  "type": "modestmagic:tablet_smithing",
+  "template": {
+    "item": "modestmagicindividualized:binding_tablet"
+  },
+  "base": {
+    "tag": "modestmagic:enchantable/tablets"
+  },
+  "enchantments": [
+    "minecraft:binding_curse"
+  ]
+}

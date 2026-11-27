@@ -11,9 +11,11 @@
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
   "examplemod.configuration.magicNumber": "Magic Number",
 
+
   "item.modestmagicindividualized.blessed_enchanting_tablet": "Blessed Enchanting Tablet",
   "item.modestmagicindividualized.cursed_enchanting_tablet": "Cursed Enchanting Tablet",
   "item.modestmagic.enchantment_tablet": "Enchanting Tablet",
+
 
   "item.modestmagicindividualized.spraying_slate": "Spraying Slate",
 
@@ -26,6 +28,14 @@
   "item.modestmagicindividualized.tolerance_tablet": "Tolerance Tablet",
   "item.modestmagicindividualized.rest_wings_tablet": "Rest Wings Tablet",
   "item.modestmagicindividualized.impervious_tablet": "Impervious Tablet",
+
+  "item.modestmagicindividualized.famine_tablet": "Famine Tablet",
+  "item.modestmagicindividualized.suffocation_tablet": "Suffocation Tablet",
+  "item.modestmagicindividualized.uwufying_tablet": "Uwufying Tablet",
+  "item.modestmagicindividualized.conductivity_tablet": "Conductivity Tablet",
+  "item.modestmagicindividualized.vanishing_tablet": "Vanishing Tablet",
+  "item.modestmagicindividualized.binding_tablet": "Binding Tablet",
+
 
   "creativetab.modestmagicindividualized.modest_magic_individualized": "Modest Magic Individualized"
 }

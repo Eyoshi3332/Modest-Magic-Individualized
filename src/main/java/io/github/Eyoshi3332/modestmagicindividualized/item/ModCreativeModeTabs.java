@@ -43,6 +43,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.IMPERVIOUS_TABLET);
 
                         // Cursed Tablets
+                        output.accept(ModItems.FAMINE_TABLET);
+                        output.accept(ModItems.SUFFOCATION_TABLET);
+                        output.accept(ModItems.UWUFYING_TABLET);
+                        output.accept(ModItems.CONDUCTIVITY_TABLET);
+                        output.accept(ModItems.VANISHING_TABLET);
+                        output.accept(ModItems.BINDING_TABLET);
 
 
                     })

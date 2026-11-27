@@ -85,6 +85,12 @@ public class ModestMagicIndividualized {
             event.accept(ModItems.IMPERVIOUS_TABLET);
 
             // Cursed Tablets
+            event.accept(ModItems.FAMINE_TABLET);
+            event.accept(ModItems.SUFFOCATION_TABLET);
+            event.accept(ModItems.UWUFYING_TABLET);
+            event.accept(ModItems.CONDUCTIVITY_TABLET);
+            event.accept(ModItems.VANISHING_TABLET);
+            event.accept(ModItems.BINDING_TABLET);
         }
     }
 

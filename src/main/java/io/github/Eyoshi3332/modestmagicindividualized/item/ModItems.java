@@ -50,6 +50,18 @@ public class ModItems {
 
 
     // Cursed Tablets
+    public static final DeferredItem<Item> FAMINE_TABLET = ITEMS.register("famine_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> SUFFOCATION_TABLET = ITEMS.register("suffocation_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> UWUFYING_TABLET = ITEMS.register("uwufying_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> CONDUCTIVITY_TABLET = ITEMS.register("conductivity_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> VANISHING_TABLET = ITEMS.register("vanishing_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> BINDING_TABLET = ITEMS.register("binding_tablet",
+            () -> new Item(new Item.Properties().component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).rarity(Rarity.RARE)));
 
 
     public static void register(IEventBus eventBus) {
