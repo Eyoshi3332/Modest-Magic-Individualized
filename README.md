@@ -6,11 +6,6 @@ Modest Magic Individualized
 =======
 A mod made by Eyoshi and Cas!
 
-Eyoshi: Director, Programmer, Artist
-
-Cas: Main Artist
-
-
 Modest Magic Individualized is a (work in progress) mod add-on to Modest Magic, with the goal of individualizing all of Minecraft's (and other mod's) unique enchantments, and grouping those that are extremely similar!
 
 It also adds compatibility between some mods, including:
@@ -29,9 +24,14 @@ It also adds compatibility between some mods, including:
 
 This mod is originally made for a modpack for friends, but feel free to use it in your modpack if you want!
 
+Credits:
+=======
+Eyoshi: Director, Programmer, Artist
+
+Cas: Main Artist
 
 Special Credits:
-
+=======
 Bailysia for the original mod, Modest Magic!
 
 Cassian and Bailysia from the Raspberry Flavoured Discord server for helping me with some code stuffs!
